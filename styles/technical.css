@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+  }
+  
+  header {
+    font-size: smaller;
+    font-weight: 600;
+  } 
+  
+  #navheader {
+    font-size: 1.3rem;
+    padding: 4%;
+  }
+  
+  #navbar{
+    z-index: 1;
+    color: gray;
+    position: fixed;
+    width: 15%;
+    border-right: 1px solid black;
+    height: 100%
+  }
+  
+  #navbar > div {
+    border-top: 1px solid black;
+    padding: 3% 0 3% 6%;
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  
+ 
+  
+
+ 
+  
+  #main-doc {
+    padding: 2% 1% 2% 17%;
+    
+    
+  }
+  
+  section > header {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  

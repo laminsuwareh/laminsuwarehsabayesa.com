@@ -1,0 +1,53 @@
+
+.story{
+    
+    width: 40%;
+    margin: auto;
+    position: relative;
+    
+}
+
+.photo{
+    width: 600px;
+    height: 600px;
+}
+
+
+.caption{
+
+    margin-left: -80px;
+}
+
+.lead{
+
+    font-size: 2.1rem;
+    border-top:solid blue;
+    border-bottom:solid blue;
+    padding: 1rem;
+  
+}
+
+h1{
+
+    font-size: 3.3rem;  
+
+}
+
+blockquote{
+
+    border-left:solid grey;
+    padding: 1.2rem;
+    
+}
+
+
+
+
+
+
+
+
+
+    
+    
+

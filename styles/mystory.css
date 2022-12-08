@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+/* site-wrapper */
+.site-wrapper{
+    margin: 0;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.site-header{
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    position: fixed;
+}
+
+
+.navbar{
+    display: flex;
+    margin-left:auto; 
+}
+
+.navbar a{
+    padding: 1.5rem 1rem;
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+}
+
+.navbar a:hover{
+    border-color: rgb(112, 8, 8);
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    display: inline-block;
+    /* border-radius: 0.5rem; */
+    /* box-shadow: 5px 5px 5px 5px rgb(248, 246, 246); */
+}
+
+
+
+
+
+/* body{
+    background-color: white;
+    margin: 0;
+    font-family: serif;
+    line-height: 1.5;
+    font-size: 100%;
+}
+
+
+
+
+
+.all{
+    position: sticky;
+    margin: auto;
+    background: rgb(173, 170, 170);
+    color: white;
+ } */
+
+
+
+
+
+ /* story */
+
+ .story{ 
+    width: 60%;
+    margin: auto;
+
+}
+
+.image{
+    max-width: 100%;
+}
+
+/* .photo{
+    width: 600px;
+    height: 600px;
+    margin-left: 1rem;
+} */
+
+.photo {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.headline {
+  padding: 1rem;
+   color: white;
+   text-align: center;
+}
+
+.lead {
+    margin-top: 4.5rem;
+    font-size: 2rem;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    border: solid rgb(70, 4, 4);
+    padding: 1rem;
+}
+
+.story p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+.end{
+    color: blue;
+}
+.email{
+    color: blue;
+    margin-top: 100px;
+}
+
+.mail {
+    width: 50%;
+    padding: 0.3rem;
+    margin-top: -6rem;
+    border-radius: 5px;
+ }
+
+ .comment{
+    width: 50%;
+    min-height: 8rem;
+    padding: 1rem;
+    border-radius: 5px;
+ }
+
+ [type="submits"]{
+    width: 100px;
+    background-color: rgb(46, 1, 1);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+
+
+/* Contact section */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    border-radius: 2px;
+  }
+  
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    padding: 0 2rem;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    /* background-image: linear-gradient(62deg, #570613 0%, #3a22c2 10%, #084913 100%); */
+    color: white;
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+  
+  @media (max-width: 28.75em) {
+   
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+    font-size: 1.8rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    
+  }
+  
+  .contact-details {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+ 
+
+
+
+/* .primary-footer{
+    background-color: rgb(87, 3, 3);
+    display: flex;
+    color: white;
+   
+}
+
+.contact{
+    margin-left: 30px;
+    width: 30%;
+    margin-right: 20px;
+    color: white;
+}
+
+
+.tel{
+    margin-bottom: 1rem;
+}
+
+.tel a{
+    color: white;
+    display: block;
+}
+
+.tel{
+    margin-bottom: 15px;
+}
+
+.site-map{
+    width: 30%;
+    display: block;
+    color: white;
+}
+
+.footer-nav a{
+    color: white;
+    display: flex;   
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.socials{
+width: 35%;
+
+}
+.site-nav {
+    display: flex;
+ 
+}
+
+.site-nav a{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    border: 2px solid rgb(151, 148, 148);
+    border-radius: 5px;
+    padding: 0.5rem;
+
+}
+
+
+.site-nav a:hover{
+    border: var(--grey);
+}
+
+
+
+
+
+.secondary-footer{
+    height: 40px;
+    display: flex;
+    background-color: rgb(22, 1, 1);
+  
+}
+
+.copy{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+    margin-right: 20px;
+    align-items:center;
+}
+
+.end{
+    margin-right: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+    margin-left: auto;
+    color: white;
+}
+
+ */
+
+
+
+
+
+
+
+    
+    
+

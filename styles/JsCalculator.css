@@ -1,0 +1,288 @@
+body{ 
+    background-color: rgb(172, 167, 167);
+    font-family: digital;
+}
+
+.container {
+    max-width: 315px;
+    justify-content: center;
+    margin: 10vh auto 0 auto;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 6px;
+    font-family: digital;
+    font-size: 1.5rem;
+    grid-column: 1 / span 4;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-auto-rows: 70px;
+    gap: 1px;
+    display: grid;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border: solid black 6px;
+}
+
+.button {
+    font-family: Share Tech Mono, monospace;
+    background-color: rgb(53, 51, 51);
+    border: none;
+    line-height: 80px;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.button:hover{
+    color: black;
+    outline: 0.05em solid grey;
+    z-index: 3;
+}
+
+.buttons #brown {
+    background-color: brown;
+    grid-column: 1 / span 2;
+}
+
+.buttons #equal {
+    grid-row: 4 / span 2;
+    grid-column: 4;
+    background-color: rgb(25, 67, 102);
+    line-height: 140px;
+}
+
+.buttons #zero {
+    background-color: rgb(53, 51, 51);
+    grid-column: 1 / span 2;
+}
+
+.buttons #div {
+    background-color: rgb(102, 101, 101);
+}
+
+.buttons #mul {
+    background-color: rgb(102, 101, 101);
+}
+
+.buttons #minus {
+    background-color: rgb(102, 101, 101);
+}
+
+.buttons #plus {
+    background-color: rgb(102, 101, 101);
+}
+
+.author{
+    display: row;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+}
+
+.author p{
+    margin-top: 20px;
+    padding: 0 1.7rem;
+    font-size: 1rem;
+    color: rgb(197, 40, 40);
+}
+
+.name p{
+    margin-top: -10px;
+    color: rgb(43, 43, 44);
+}
+
+
+
+
+
+/* to center the calculator at the center //autofocus//*/
+
+/* 
+body{
+    background-color: rgb(172, 167, 167);
+    font-family: digital;
+}
+.cernter-calculator {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+button {
+    font-family: Share Tech Mono, monospace;
+    border: none;
+    font-family: digital;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(53, 51, 51);
+}
+button:hover{
+    color: black;
+    outline: 0.05em solid grey;
+    z-index: 3;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 72px);
+    grid-auto-rows: 64px;
+    gap: 1px;
+    background-color: black;
+    border: solid black 6px;
+}
+
+
+.calculator .input {
+    font-family: digital;
+    font-size: 1.5rem;
+    grid-column: 1 / span 4;
+    text-align: right;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.calculator .brown {
+    background-color: brown;
+    grid-column: 1 / span 2;
+}
+
+.calculator .equals {
+    grid-row: 5 / span 2;
+    grid-column: 4;
+    background-color: rgb(25, 67, 102);
+}
+
+.calculator .zeros {
+    background-color: rgb(53, 51, 51);
+    grid-column: 1 / span 2;
+}
+
+.calculator .divs {
+    background-color: rgb(102, 101, 101);
+}
+
+.calculator .muls {
+    background-color: rgb(102, 101, 101);
+}
+
+.calculator .minus {
+    background-color: rgb(102, 101, 101);
+}
+
+.calculator .plus {
+    background-color: rgb(102, 101, 101);
+}
+
+
+.author{
+    display: row;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+}
+
+.author p{
+    margin-top: -80px;
+    padding: 0 1.7rem;
+    font-size: 1rem;
+    color: rgb(53, 51, 51);
+}
+
+.name p{
+    margin-top: -10px;
+    color: rgb(4, 3, 73);
+} */
+
+
+
+
+
+
+
+/* @import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@font-face {
+  font-family: 'Digital';
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix') format('embedded-opentype'), url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2') format('woff2'), url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff') format('woff'), url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf') format('truetype'), url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7') format('svg');
+}
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background: #c2c2d6;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.calculator {
+  border: 2px solid #47476b;
+  padding: 5px;
+  background: black;
+  width: 320px;
+  position: relative;
+}
+.formulaScreen {
+  min-height: 20px;
+  font-family: digital;
+  font-size: 20px;
+  color: orange;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.outputScreen {
+  font-size: 29px;
+  font-family: digital;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+}
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: #4d4d4d;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+}
+button:hover {
+  color: black;
+  outline: 0.05em solid grey;
+  z-index: 3;
+}
+.jumbo {
+  width: 160px;
+}
+.author {
+  text-align: center;
+  font-family: Share Tech Mono, sans;
+  margin-top: 15px;
+}
+.author a {
+  text-decoration: none;
+  color: #00264d;
+  line-height: 26px;
+} */

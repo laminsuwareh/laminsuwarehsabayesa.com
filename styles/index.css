@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* site-wrapper */
+.site-wrapper{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.site-header{
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    display: flex;
+    width: 100%; 
+    position: fixed;
+}
+
+
+.navbar{
+    display: flex;
+    margin-left: auto; 
+}
+
+.navbar a{
+    padding: 1.5rem 1rem;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.navbar a:hover{
+    /* border-color: rgb(112, 8, 8); */
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    /* display: inline-block; */
+    /* border-radius: 0.5rem; */
+    /* box-shadow: 5px 5px 5px 5px rgb(248, 246, 246); */
+}
+
+/* .lamin{
+    width: 8%;
+    height: 8%;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.lamin:hover {
+    transform: scale(1.2);
+   
+} */
+
+
+
+/* .site-main */
+
+/* hero */
+.hero{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* background-color: rgb(209, 202, 202); */
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+   
+}
+
+.profile {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0, auto;
+}
+
+.profile-img{ 
+    /* margin-top: 50px; */
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    width: 300px;
+    height: 300px;
+}
+
+.profile-img:hover {
+    transform: scale(1.2);
+   
+}
+
+.profile-details{
+    width: 40%;
+    margin-left: 35px;
+}
+
+.profile-title{
+    background-image: linear-gradient(62deg, #f2f3f3 0%, #0a0111 100%);
+    
+}
+
+.profile p{
+    line-height: 1.6;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.profile .btn{
+    font-size: 1.2rem;
+    color: white;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    border: 2px solid rgb(245, 245, 250);
+}
+
+.profile .btn:hover{
+    border-color: rgb(51, 3, 3);
+    background: rgb(59, 58, 58);
+    box-shadow: 5px 5px 5px 5px rgb(248, 246, 246);
+
+}
+
+
+/* content */
+
+/* primary-content */
+.content{
+    padding: 5rem;
+    display: flex;  
+    background-color: rgb(252, 251, 250);
+}
+
+h2{
+    font-size: 3rem; 
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+.lead{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-top:solid rgb(12, 5, 56);
+    border-bottom:solid rgb(12, 5, 56);
+    padding: 1rem;
+}
+
+.primary-content{
+    margin-right: 40px;
+    width: 55%;
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+}
+
+.lead p{
+    font-size: 1.3rem;
+    color: blue;
+}
+
+
+
+/* .life-pic{
+    width: 500px;
+    height: 600px;
+   
+} */
+
+/* secodary-content */
+.secodary-content{
+    width: 40%;
+
+}
+
+.fab{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+
+.friend{
+    margin-top: -10px;
+}
+
+.friend a{
+    color: blue;
+    display: flex;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+.cv{
+    line-height:1.5;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.cv p{
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    margin-top: -25px;
+}
+
+.cv .head{
+    margin-top: 0;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    color: blue;
+    font-size: 1rem;
+    text-decoration: underline;
+    display: inline;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 1.5rem 1.5rem;
+}
+
+
+
+/* Contact section */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    border-radius: 2px;
+  }
+  
+
+.contact-section {
+    /* border-bottom: 4px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    padding: 0 2rem;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    /* background-image: linear-gradient(62deg, #570613 0%, #3a22c2 10%, #084913 100%); */
+    color: white;
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+  
+  @media (max-width: 28.75em) {
+   
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+    font-size: 1.8rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    
+  }
+  
+  .contact-details {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
+
+
+
+
+
+
+
+
+
+

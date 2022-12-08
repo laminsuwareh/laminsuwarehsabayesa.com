@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    background-color:  #eeeeee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.7;
+    
+}
+
+
+.logo{
+    margin: 0;
+    font-size: 1.5rem;
+  
+}
+
+.original{
+    width: 100px;
+    margin-right: auto; 
+}
+
+.navbar{
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 5%;   
+}
+
+.nav{
+    display: flex;
+    margin-left:auto;
+    
+    
+}
+
+.nav a{
+    padding: 1.5rem 1.5rem;
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.hero{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-item{
+    text-align: center;
+
+}
+
+.form>input{
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+}
+
+
+[type="submit"]{
+    width: auto;
+    background-color: rgba(236, 195, 12, 0.863);
+    padding: 0.5rem 1rem;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+
+.section{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 81%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.card{
+    display: flex;
+    align-items: left;
+}
+
+.card-img{
+    align-items: left;
+    width: 12%;
+     
+}
+
+.card-info{
+    line-height: 0.9;
+    margin-left: 30px;
+}
+
+.pre{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+    position: relative;
+    top: -0.7rem;
+}
+
+
+
+
+
+
+.media{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+.container {
+    max-width:80%;
+    margin:auto;
+}
+
+.row{
+    display: flex;
+    margin-left: -1.5rem;
+    margin-bottom: -1.5rem;
+    text-align: center;
+}
+
+.col{
+    outline: 2PX solid gray;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    width: 70%;
+}
+
+.price{
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    flex-direction: row;
+}
+
+
+
+
+
+
+.page-footer{
+    background-color:rgb(214, 209, 209);
+    width: 80%;
+    height: 5%;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.footer-items{
+    margin-left: auto;
+}
+
+.item{
+    display: flex;
+}
+
+.item a{
+    padding: 1.5rem 1.5rem;
+    text-decoration: none;
+    color: black;
+ 
+}
+
+.footer-p{
+    color: gray;
+    text-align: center;
+    margin-top: -1rem;
+}
+

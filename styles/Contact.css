@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+/* site-wrapper */
+.site-wrapper{
+    margin: 0;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.site-header{
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    position: fixed;
+}
+
+
+.navbar{
+    display: flex;
+    margin-left:auto; 
+}
+
+.navbar a{
+    padding: 1.5rem 1rem;
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+}
+
+.navbar a:hover{
+    border-color: rgb(112, 8, 8);
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    display: inline-block;
+    /* border-radius: 0.5rem; */
+    /* box-shadow: 5px 5px 5px 5px rgb(248, 246, 246); */
+}
+
+
+
+
+/* .site-main */
+
+/* hero */
+.hero{
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* background-color: rgb(209, 202, 202); */
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+   
+}
+
+.profile h1 {
+    margin: 0 auto 1rem auto;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.profile p {
+    margin: 0 auto 3rem auto;
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+/* content */
+
+/* primary-content */
+
+.content{
+    padding: 2rem;
+    display: flex;  
+    background-color: rgb(252, 251, 250);
+    
+}
+
+
+.primary-content{
+    padding: 1.5rem 1rem;
+    margin-right: 40px;
+    margin-left: 20px;
+    width: 60%;
+    text-align: left;
+}
+
+.contacts h2 {
+    font-size: 2.2rem;
+    margin-top: 15px;
+}
+
+.contacts h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+address{
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+
+.contacts p {
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+
+/* secodary-content */
+.secodary-content{
+    width: 40%;
+
+}
+
+.fab{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+
+.friend{
+    margin-top: 5px;
+}
+
+.friend a{
+    color: blue;
+    display: flex;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+.cv{
+    line-height:1.5;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+.cv p{
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+}
+
+.cv .head{
+    margin-top: 5px;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    color: blue;
+    font-size: 1rem;
+    text-decoration: underline;
+    display: inline;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 1.5rem 1.5rem;
+}
+
+
+
+
+
+
+/* Contact section */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    border-radius: 2px;
+  }
+  
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    padding: 0 2rem;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    /* background-image: linear-gradient(62deg, #570613 0%, #3a22c2 10%, #084913 100%); */
+    color: white;
+  }
+  
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+  
+  @media (max-width: 28.75em) {
+   
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+    font-size: 1.8rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    
+  }
+  
+  .contact-details {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+  
+
+
+  
+/* .primary-footer{
+    background-color: rgb(82, 3, 3);
+    display: flex;
+    color: white;
+   
+}
+
+.contact{
+    margin-left: 30px;
+    width: 30%;
+    margin-right: 20px;
+    color: white;
+}
+
+.tel a{
+    color: white;
+    display: block;
+}
+
+.tel{
+    margin-bottom: 15px;
+}
+
+.site-map{
+    width: 30%;
+    display: block;
+    color: white;
+}
+
+.footer-nav a{
+    color: white;
+    display: flex;   
+}
+
+
+
+
+
+
+
+.socials{
+width: 35%;
+
+}
+.site-nav {
+    display: flex;
+ 
+}
+
+.site-nav a{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    border: 2px solid rgb(151, 148, 148);
+    border-radius: 5px;
+    padding: 0.5rem;
+
+}
+
+.site-nav a:hover{
+    border: var(--grey);
+}
+
+
+
+
+
+.secondary-footer{
+    height: 40px;
+    display: flex;
+    background-color: rgb(34, 2, 2);
+  
+}
+
+.copy{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+    margin-right: 20px;
+}
+
+.end{
+    margin-right: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+    margin-left: auto;
+    color: white;
+} */
