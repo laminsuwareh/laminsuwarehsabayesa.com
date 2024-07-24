@@ -181,6 +181,7 @@ address{
   
 
 .contact-section {
+    border-bottom: 4px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
