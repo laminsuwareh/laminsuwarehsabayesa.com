@@ -32,29 +32,8 @@
 }
 
 .navbar a:hover{
-    /* border-color: rgb(112, 8, 8); */
     background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-    /* display: inline-block; */
-    /* border-radius: 0.5rem; */
-    /* box-shadow: 5px 5px 5px 5px rgb(248, 246, 246); */
 }
-
-/* .lamin{
-    width: 8%;
-    height: 8%;
-    margin-left: 20px;
-    margin-top: 10px;
-    
-}
-
-.lamin:hover {
-    transform: scale(1.2);
-   
-} */
-
-
-
-/* .site-main */
 
 /* hero */
 .hero{
@@ -62,8 +41,9 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    /* background-color: rgb(209, 202, 202); */
     background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    background-image: linear-gradient(62deg, #570613 20%, #3a22c2 40%, #084913 80%);
+
    
 }
 
@@ -75,7 +55,6 @@
 }
 
 .profile-img{ 
-    /* margin-top: 50px; */
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     width: 300px;
     height: 300px;
@@ -160,20 +139,14 @@ h3{
 
 
 
-/* .life-pic{
-    width: 500px;
-    height: 600px;
-   
-} */
 
-/* secodary-content */
-.secodary-content{
+/* secondary-content */
+.secondary-content{
     width: 40%;
 
 }
 
 .fab{
-    margin-top: 20px;
     font-size: 1.5rem;
 }
 
@@ -196,7 +169,7 @@ h3{
 }
 
 .cv p{
-    margin-bottom: 25px;
+    /* margin-bottom: 5px; */
     font-size: 1.2rem;
     margin-top: -25px;
 }
@@ -224,7 +197,7 @@ h3{
   
 
 .contact-section {
-    /* border-bottom: 4px solid red; */
+    border-bottom: 4px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -233,7 +206,7 @@ h3{
     height: 40vh;
     padding: 0 2rem;
     background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-    /* background-image: linear-gradient(62deg, #570613 0%, #3a22c2 10%, #084913 100%); */
+    background-image: linear-gradient(62deg, #570613 20%, #3a22c2 40%, #084913 80%);
     color: white;
   }
   
@@ -272,14 +245,3 @@ h3{
   .contact-details:hover {
     transform: translateY(8px);
   }
-
-
-
-
-
-
-
-
-
-
-
