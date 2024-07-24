@@ -188,8 +188,8 @@ address{
     text-align: center;
     height: 40vh;
     padding: 0 2rem;
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-    /* background-image: linear-gradient(62deg, #570613 0%, #3a22c2 10%, #084913 100%); */
+/*     background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%); */
+    background-image: linear-gradient(62deg, #570613 0%, #3a22c2 10%, #084913 100%);
     color: white;
   }
   
