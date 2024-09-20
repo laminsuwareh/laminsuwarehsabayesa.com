@@ -1,0 +1,102 @@
+/*header section*/
+.header{
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 235, 235, 0.849);
+}
+
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    line-height: 2.5;
+    font-size: 40px;
+}
+
+p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto 3rem auto;
+    font-size: 1.2rem;
+    margin-top: -1.5rem;
+}
+
+
+/*photo section*/
+.photo{
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 100px;
+    background: white;
+}
+
+
+figcaption{
+    margin-left: 70px;
+}
+
+
+/*life section*/
+.life{
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 0 0 1% 0;
+    background-color: rgba(240, 235, 235, 0.849);
+}
+
+h3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+    padding: 3em;
+}
+
+.list{
+    margin-top: -2rem;
+}
+
+.list > li{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 450px;
+    padding: 0 0 2% 0;
+    color: gray;
+}
+
+.quote{
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 455px;
+    padding: 0 0 2% 0;
+    color: gray;
+    font-style: italic;
+    font-size: 1.1rem;
+    width: 45%;
+    padding: 2em;
+}
+.author{
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 2% 0;
+    color: gray;
+    margin-left: 350px;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: -4rem;
+    width: 40%;
+    padding: 1em;
+}
+
+
+.link{
+    margin-left: 20px;
+}
+
