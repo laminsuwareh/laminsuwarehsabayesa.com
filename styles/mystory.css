@@ -162,7 +162,6 @@
 
 .contact-section {
     border-bottom: 4px solid red;
-    border-bottom: 4px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,8 +169,8 @@
     text-align: center;
     height: 40vh;
     padding: 0 2rem;
-    background-image: linear-gradient(62deg, #570613 20%, #3a22c2 40%, #084913 80%);
-/*     background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%); */
+/*     background-image: linear-gradient(62deg, #570613 20%, #3a22c2 40%, #084913 80%); */
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
     /* background-image: linear-gradient(62deg, #570613 0%, #3a22c2 10%, #084913 100%); */
     color: white;
   }
