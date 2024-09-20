@@ -10,7 +10,7 @@ var currentQuote = "", currentAuthor = "";
 function getQuotes() {
   return $.ajax({
     headers: { Accept: "application/json" },
-    url: "http://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json",
+    url: "https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json",
     success: function (jsonQuotes) {
       quotesData = JSON.parse(jsonQuotes);
     }
@@ -31,13 +31,13 @@ function getQuote() {
 
   $("#tweet-quote").attr(
     "href",
-    "http://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" +
+    "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" +
       encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
   );
 
   $("#tumblr-quote").attr(
     "href",
-    "http://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=" +
+    "https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=" +
       encodeURIComponent(currentAuthor) +
       "&content=" +
       encodeURIComponent(currentQuote)
