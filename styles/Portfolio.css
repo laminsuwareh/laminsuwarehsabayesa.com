@@ -103,7 +103,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 2rem;
-    height: 750px;
+/*     height: 750px; */
     width: 100%;
     max-width: 1275px;
     margin: 0 auto;
