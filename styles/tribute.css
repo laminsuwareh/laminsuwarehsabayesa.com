@@ -1,6 +1,10 @@
 /*header section*/
+body{
+    background-color: rgba(240, 235, 235, 0.849);
+}
+
 .header{
-    height: 30vh;
+    height: 60vh;
     align-items: center;
     justify-content: center;
     background-color: rgba(240, 235, 235, 0.849);
@@ -31,7 +35,7 @@ p{
     justify-content: center;
     margin-top: 2rem;
     margin-left: 100px;
-    background: white;
+    /* background: white; */
 }
 
 
