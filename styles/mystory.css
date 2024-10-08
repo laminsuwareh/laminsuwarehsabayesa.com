@@ -77,17 +77,28 @@
 
  /* story */
 
- .story{ 
-    width: 75%;
-    margin: 0 auto;
-}
-
-@media (max-width: 900px) { /* Adjust the max-width as needed */
-  .story {
-    width: 100%; /* Full width for mobile */
-    margin: 0;   /* Remove centering */
+.story {
+    width: 65%; /* Default width */
+    margin: 0 auto; /* Center content */
+    line-height: 1.5;
+    transition: all 0.3s ease; /* Smooth transition */
   }
-}
+  
+  /* Styles for devices with a max-width of 980px or less */
+  @media (max-width: 980px) {
+    .story {
+      width: 90%; /* Adjust to 90% for smoother scaling */
+      padding: 0 10px; /* Add some padding if needed */
+    }
+  }
+  
+  /* Styles for smaller screens like mobile devices */
+  @media (max-width: 768px) {
+    .story {
+      width: 100%; /* Full width for mobile */
+      padding: 0 20px; /* Optional: Add some padding */
+    }
+  }
 
 .image{
     max-width: 100%;
