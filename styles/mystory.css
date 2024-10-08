@@ -82,7 +82,7 @@
     margin: 0 auto;
 }
 
-@media (max-width: 768px) { /* Adjust the max-width as needed */
+@media (max-width: 900px) { /* Adjust the max-width as needed */
   .story {
     width: 100%; /* Full width for mobile */
     margin: 0;   /* Remove centering */
