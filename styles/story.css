@@ -80,10 +80,17 @@ body{
 
 
 /* story */
-.story{ 
-    width: 90%;
-    margin: auto;
-}
+.story {
+    width: 65%; /* Set a width based on text size */
+    margin: 0 auto;
+    font: 2em sans-serif;
+  }
+  
+  @media (max-width: 70.19em) { /* Convert 980px to em units */
+    .story {
+      width: 90%; /* Scale width appropriately */
+    }
+  }
 
 .image{
     width: 100%;
