@@ -78,7 +78,7 @@
  /* story */
 
  .story{ 
-    width: 75%;
+    width: 90%;
     margin: auto;
 
 }
@@ -116,7 +116,7 @@
 }
 
 .story p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     padding: 1rem;
 }
