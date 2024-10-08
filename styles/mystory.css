@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 1000px) { /* Adjust the max-width as needed */
-  .container {
+  .story {
     width: 100%; /* Full width for mobile */
     margin: 0;   /* Remove centering */
   }
