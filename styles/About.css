@@ -37,7 +37,7 @@
 }
 
 .about {
-    border-color: rgb(112, 8, 8);
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
 }
 
 .navbar a:hover{
