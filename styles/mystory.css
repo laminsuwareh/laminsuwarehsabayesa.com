@@ -78,9 +78,17 @@
  /* story */
 
  .story{ 
-    width: 90%;
-    margin: auto;
+    display: flex;
+    justify-content: center; /* Center content on desktop */
+    align-items: center;
+    width: 75%;
+}
 
+@media (max-width: 768px) {
+  .container {
+    justify-content: flex-start; /* Align content to the start on mobile */
+    width: 100%;
+  }
 }
 
 .image{
