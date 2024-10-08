@@ -78,16 +78,14 @@
  /* story */
 
  .story{ 
-    display: flex;
-    justify-content: center; /* Center content on desktop */
-    align-items: center;
     width: 75%;
+    margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* Adjust the max-width as needed */
   .container {
-    justify-content: flex-start; /* Align content to the start on mobile */
-    width: 100%;
+    width: 100%; /* Full width for mobile */
+    margin: 0;   /* Remove centering */
   }
 }
 
