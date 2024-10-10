@@ -36,16 +36,15 @@
    
 }
 
-.askMe {
-  background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-}
-
 .navbar a:hover{
     border-color: rgb(112, 8, 8);
     background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
     display: inline-block;
 }
 
+.blog {
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+}
 
 
 
@@ -78,10 +77,6 @@ body{
 
 
 /* story */
-/* .story h1{
-    line-height: 1.5;
-} */
-
 .story {
     width: 65%; /* Set a width based on text size */
     margin: 0 auto;
@@ -97,7 +92,7 @@ body{
     }
   }
 
-.image {
+  .image {
     display: block;
     width: 65%; /* Default width for all screens */
     max-width: 6000px;
@@ -113,6 +108,8 @@ body{
     }
 }
 
+
+
 .headline h1{
     margin-top: 20px;
     font-size: 3.5rem;  
@@ -125,7 +122,7 @@ figcaption{
 }
 
 .story p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     padding: 1rem;
 }
@@ -158,9 +155,9 @@ figcaption{
 }
 
 .lead{
-    margin-top: 15rem;
-    /* border-top: solid rgb(117, 6, 6); */
-    /* border-bottom: solid rgb(117, 6, 6); */
+    margin-top: 20rem;
+    border-top: 1px solid rgb(131, 128, 128);
+    border-bottom: 1px solid rgb(129, 126, 126);
     padding: 1rem;
     line-height: 1.5;
 }
@@ -172,8 +169,9 @@ figcaption{
 .lead p{
     margin-top: 1.5rem;
     font-size: 1.3rem;
-    color: #01080c;
+    color: #0c0301;
 }
+
 
 
 .caption{
@@ -198,7 +196,6 @@ figcaption{
   
 
 .contact-section {
-    border-bottom: 4px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
