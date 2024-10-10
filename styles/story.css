@@ -99,8 +99,20 @@ body{
     }
   }
 
-.image{
-    width: 100%;
+.image {
+    display: block;
+    width: 65%; /* Default width for all screens */
+    max-width: 6000px;
+    max-height: 40rem;
+    margin: 0 auto 22rem; /* Center the image with auto margins */
+}
+
+/* Styles for very small screens (mobile devices) */
+@media (max-width: 1080px) {
+    .image {
+        width: 90%; /* Set the width to 90% of the viewport on small devices */
+        max-width: none; /* Remove max-width to allow larger width */
+    }
 }
 
 .headline h1{
