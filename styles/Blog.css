@@ -211,7 +211,7 @@
 
 /* hero */
 .hero{
-    height: 80vh;
+/*     height: 80vh; */
     align-items: center;
     justify-content: center;
     display: flex;
