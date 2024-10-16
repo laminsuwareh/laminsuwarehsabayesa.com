@@ -42,6 +42,9 @@
     display: inline-block;
 }
 
+.blog {
+  background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+}
 
 /* hero */
 .hero{
