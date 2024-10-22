@@ -243,6 +243,7 @@
     margin: 0 auto;
     margin-bottom: 4rem;
     grid-auto-rows: 1fr;
+     grid-auto-rows: 400px;
   }
   
   @media (max-width: 30.625em) {
