@@ -36,147 +36,18 @@
    
 }
 
+.portfolio {
+  background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+}
+
 .navbar a:hover{
     border-color: rgb(112, 8, 8);
     background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
     display: inline-block;
 }
 
-.blog {
+.portfolio {
   background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-}
-
-/* hero */
-.hero{
-    height: 80vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    /* background-color: rgb(209, 202, 202); */
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-   
-}
-
-.profile h1 {
-    margin: 0 auto 1rem auto;
-    color: white;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.profile p {
-    margin: 0 auto 3rem auto;
-    color: white;
-    font-size: 2rem;
-}
-
-.profile .btn{
-    margin-left: 240px;
-    font-size: 1.2rem;
-    color: white;
-    padding: 1rem 1rem;
-    text-decoration: none;
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-    border: 2px solid rgb(245, 245, 250);
-}
-
-.profile .btn:hover{
-    border-color: rgb(51, 3, 3);
-    background: rgb(59, 58, 58);
-    box-shadow: 5px 5px 5px 5px rgb(248, 246, 246);
-
-}
-
-/* content */
-
-/* primary-content */
-
-.content{
-    padding: 2rem;
-    display: flex;  
-    background-color: rgb(252, 251, 250);
-    
-}
-
-
-.primary-content{
-    padding: 1.5rem 1rem;
-    margin-right: 40px;
-    width: 60%;
-    text-align: left;
-}
-
-.primary-content h2 {
-    font-size: 3rem;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-
-.primary-content p {
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 1.8rem;
-    color: blue ;
-}
-
-.primary-content .btn{
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 1.3rem;
-    color: white;
-    padding: 1rem 1rem;
-    text-decoration: none;
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-    border: 2px solid rgb(6, 6, 8);
-}
-
-.primary-content .btn:hover{
-    border-color: rgb(51, 3, 3);
-    background: rgb(59, 58, 58);
-    box-shadow: 5px 5px 5px 5px rgb(58, 56, 56);
-
-}
-
-
-.fab{
-    margin-top: 30px;
-    font-size: 1.5rem;
-}
-
-
-.friend{
-    margin-top: 5px;
-}
-
-.friend a{
-    color: blue;
-    display: flex;
-    line-height: 1.5;
-    font-size: 1.3rem;
-}
-
-.cv{
-    line-height:1.5;
-    width: 100%;
-    margin-top: 15px;
-    font-size: 1.3rem;
-}
-
-.cv p{
-    margin-bottom: 25px;
-    font-size: 1.2rem;
-}
-
-.cv .head{
-    margin-top: 5px;
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-    color: blue;
-    font-size: 1rem;
-    text-decoration: underline;
-    display: inline;
-    border: 2px solid blue;
-    border-radius: 5px;
-    padding: 1.5rem 1.5rem;
 }
 
 
@@ -201,7 +72,7 @@
 }
 
 .profile p {
-    /* max-width: 500px; */
+    max-width: 500px;
     margin: 0 auto 3rem auto;
     color: white;
     font-size: 2rem;
@@ -229,7 +100,7 @@
     border-top: 0.1rem solid white;
     border-bottom: 0.1rem solid white;
     color: white;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
 
   }
   
@@ -251,7 +122,6 @@
     }
   
     .projects-grid {
-      grid-template-columns: 1fr;
       grid-template-columns: 1fr;
     }
   }
@@ -280,8 +150,8 @@
   }
   
   .project-title {
-    font-size: 1rem;
-    padding: 2rem 1.5rem;
+    font-size: 1.5rem;
+    padding: 2rem 0.5rem;
     color: white;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -319,7 +189,7 @@
   }
 
 
-/* Contact section */
+  /* Contact section */
 .btn {
     display: inline-block;
     padding: 0.5rem 0.8rem;
