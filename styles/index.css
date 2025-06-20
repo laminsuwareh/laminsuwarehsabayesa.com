@@ -128,6 +128,7 @@ h3{
 }
 
 .primary-content{
+    margin-top: 0;
     margin-right: 40px;
     width: 55%;
     text-align: left;
@@ -155,9 +156,9 @@ h3{
 }
 
 
-/* .friend{
+.friend{
     margin-top: -10px;
-} */
+}
 
 .friend a{
     color: blue;
