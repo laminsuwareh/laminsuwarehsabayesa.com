@@ -84,8 +84,11 @@
 .story {
     width: 65%; /* Set a width based on text size */
     margin: 0 auto;
-    font: o.5em sans-serif;
-    line-height: 0.5;
+    font-size: 8px;
+    font-family: sans-serif;
+    line-height: 1.2;
+/*     font: o.5em sans-serif; */
+/*     line-height: 0.5; */
   }
   
   @media (max-width: 70.19em) { /* Convert 980px to em units */
