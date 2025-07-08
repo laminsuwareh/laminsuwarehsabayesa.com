@@ -84,7 +84,7 @@
 .story {
     width: 65%; /* Set a width based on text size */
     margin: 0 auto;
-    font-size: 4px;
+    font-size: 0.4px;
     font-family: sans-serif;
     line-height: 1.2;
 /*     font: o.5em sans-serif; */
