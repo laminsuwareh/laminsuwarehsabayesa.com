@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    font-size: 16px;
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,326 +14,250 @@
         });
     </script>
 
-<body>
-    <div class="site-wrapper">
-                    <header class="site-header">
-            
-                        <nav class="navbar">
-            
-                            <a href="index.html">Home</a>
-                            <a href="Portfolio.html">Portfolio</a>
-                            <a class="blog" href="Blog.html">Blog</a>
-                            <a href="mystory.html">About Me</a>
-<!--                             <a href="Contact.html">Contact</a> -->
-                        </nav>
-            
-                    </header>
-    </div>
-    <figure>
-        <img class = "image" src="./images/sunset.jpg" alt="">
-        <figcaption>
-            Sunset view from my home.
-        </figcaption>
-    </figure> 
-         
-    <div class = "story">
-        
-        <div class = "headline">
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
-            <h1>
-                Looking Back - The Incident that got me really thinking about Disability
-            </h1>
- 
-        </div>   
+html {
+    font-size: 16px; /* base size */
+}
 
-        <div class = "lead">
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
 
-            <h3>
-                The most memorable experience of my life was the incident 
-                that happened a Decade ago.
-            </h3>
+/* ======================
+   SITE HEADER
+====================== */
 
-            <span>
-                <p>May 23, 2023. by <a href="mystory.html">Lamin Suwareh.</a></p>
-            </span>
+.site-wrapper {
+    font-size: 1rem;
+}
 
-        </div>
+.site-header {
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
 
+.navbar {
+    display: flex;
+    margin-left: auto;
+}
 
-        <p id="rm">
-            One beautiful afternoon, my mother brought surprising news that would shape the course of my day. She informed me that my uncle from Gunjur, 
-            a town in Kombo South, West Coast Region of The Gambia, had called and requested my participation in the upcoming national polio immunization days. He had initially registered 
-            his son for the vaccination, but due to an important examination, he needed someone to take his place. Being unemployed and not currently attending 
-            school, I saw this as an opportunity to contribute and make a difference. Without hesitation, I packed my bag and made my way to my uncle's 
-            house in Gunjur, where I spent the night.
-        </p>
+.navbar a {
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+}
 
-<!--         <figure class = "caption">
+.about {
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+}
 
-                <img class = "photo" src = "./images/suwareh.jpg" alt = "">
-                <figcaption>Photo of me wearing hearing aid.</figcaption>
+.navbar a:hover {
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+}
 
-        </figure> -->
+/* ======================
+   HERO SECTION
+====================== */
 
-        <p>
-            The following morning, filled with enthusiasm, I woke up early, took a refreshing bath, and made my way to the Gunjur Health Center 
-            to attend the workshop for the polio immunization campaign. As the morning progressed, the workshop began, led by the organizers and 
-            experienced nurses. They passionately educated us on the vital steps involved in administering the polio vaccine to children and 
-            stressed the importance of maintaining accurate records. As we absorbed the knowledge, a profound sense of purpose and responsibility 
-            grew within me. <br><br>
-            Following the workshop, the participants were divided into pairs for the four days of vaccination ahead. I was paired with a lady who 
-            appeared to be slightly older than me. Initially, We exchanged pleasantries, hoping to form a productive and efficient team. However, her demeanor 
-            drastically changed when she discovered that I was deaf. Abruptly, she left my side and hurried into the hospital, where she engaged 
-            in a conversation with a staff member she knew. I sensed something was amiss. <br><br>
-            Moments later, the staff member approached me, attempting to find me another partner. To my dismay, every participant, particularly 
-            the boys, rejected the idea of pairing with me. The room filled with whispers and murmurs, and I became the subject of ridicule. 
-            Insensitive speculations circulated, suggesting that I had joined the campaign solely for monetary gain. It was a deeply hurtful 
-            experience, and the weight of their judgment began to take its toll. After a brief discussion among the staff and participants, 
-            it was decided that I should be disqualified and sent home. I handed back the t-shirt given to me to wear during the vaccination periods,
-            but I was told to take it.  
-        </p>
-            
-        <figure class = "caption">
-                <img class = "photo" src = "./images/polio.jpg" alt = "">
-                <figcaption>Photo of the t-shirt given to me.</figcaption>
-        </figure>
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    margin-top: 60px;
+}
 
-        <p>
-            Amidst the brouhaha and the disdainful gazes, I summoned my inner strength and refused to let 
-            their negativity define me. I stood tall, determined to accept whatever outcome awaited me. Despite the emotional turmoil, 
-            I reminded myself that I had embarked on this journey to make a difference, to contribute to society. Even though the incident 
-            was disheartening, it wouldn't deter me from my commitment to help others. 
-        </p>
+.profile {
+    text-align: center;
+    max-width: 700px;
+    padding: 1rem;
+}
 
-        <p>
-            With a heavy heart, I left the hospital campus, walking away from the hurtful remarks and derogatory comments. Each step I 
-            took felt like a testament to my resilience. My legs, which I feared would falter under the weight of disappointment, remained 
-            steadfast. If I had known the humiliation and rejection that awaited me, perhaps I would have hesitated before accepting my uncle's request. 
-            But in that moment, I was determined to rise above the prejudice and prove my worth. As a person with disability, I became the talk of the day, 
-            with almost every tom, dick and harry having something to say about me. However, leaving behind the negativity that surrounded me, I walked 
-            about two hundred meters back home without looking back.  
-        </p>
-            
-        <h2>
-            Looking Back!
-        </h2>
+.profile h1 {
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
 
+.profile p {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 2rem;
+}
 
-        <p>
-            Imagine yourself a Decade ago just like me... <br><br><b> 
-            Where did you live? <br>  
-            How was it there? <br> 
-            Where do you work? <br>
-            What were your dreams? <br> 
-            What were your struggles? </b>
-        </p>
+.profile .btn {
+    font-size: 1rem;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border: 2px solid white;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+}
 
-        <p>
-            Step into that time and become that person for a moment. From that place, now look forward. <br> 
-            What do you think of your life now?
-        </p>
+.profile .btn:hover {
+    background: rgb(59, 58, 58);
+}
 
-        <p>
-            One of three things will be true:
-        </p>
+/* ======================
+   MAIN CONTENT
+====================== */
 
-        <ul>
-             <li>
-                    Life is better now.   
-             </li>
-             <li>
-                    Life is the same now.
-             </li>
-             <li>
-                    Life is worse now.
-             </li>
-        </ul>
+.content {
+    display: flex;
+    padding: 3rem 2rem;
+    background-color: #fafafa;
+    gap: 2rem;
+}
 
-        <p>
-             Which is true for you? Hold that thought. Hold that emotion.
-        </p>
+/* PRIMARY CONTENT */
+.primary-content {
+    width: 60%;
+}
 
-        <h3>
-            Reaching Home!
-        </h3>
+.primary-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 
-        <p>
-            Upon reaching home, I found my uncle waiting for me. He explained that he had been called to the hospital, which resulted in him leaving 
-            work early. He urged me not to dwell on the incident, reminding me that obstacles were bound to arise but should never define my journey. 
-            His words of encouragement resonated within me, providing solace and reassurance. <br><br>
-            However, my aunt's reaction differed from my uncle's understanding. Fueled by anger, she placed the blame squarely on the staff and 
-            my fellow participants. She argued that I should have been allowed to participate by force, standing up for my rights. Though her 
-            passionate defense touched me, I knew that dwelling on blame wouldn't change the situation. That evening, I bid farewell to my 
-            uncle's family and returned home. <br><br>
+.primary-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    max-width: 65ch;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
 
-            That evening, I sought solace and understanding from my mother, who had already been informed about the events of the day. She responded to my plight 
-            with even more words of encouragement, assuring me that this experience would only make me stronger. Her response was filled with love and unwavering support. 
-            She showered me with words of encouragement, reminding 
-            me of my inherent strength and the power of perseverance. Her belief in me acted as a balm for my wounded spirit. Her encouragement fueled my 
-            determination to persist and never lose hope. This incident became a defining moment in my life, reaffirming my determination never to give up, 
-            even for a second. I hold onto the belief that I will continue to persevere, guided by faith, and overcome any challenges that come my way.
-        </p>
+.primary-content .btn {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+    color: white;
+    border: 2px solid #000;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+}
 
-        <p>
-            This challenging day at the polio immunization campaign became a defining moment in my life. It tested my resilience, but it also ignited a 
-            fire within me. The incident served as a reminder of the harsh realities some people face due to ignorance and prejudice. It motivated me to 
-            be an advocate for inclusivity and to challenge societal norms that limit opportunities for individuals with disabilities. <br><br>
-            
-            It strengthened my resolve to never give up, regardless of the obstacles I encountered. As I reflect on that disheartening day, I find comfort in 
-            knowing that Inn Shaa Allah, I will continue to face life's challenges with courage and perseverance. The incident may have been a setback, but 
-            it will never overshadow my determination to make a positive impact in the world.
-        </p>
+.primary-content .btn:hover {
+    background: rgb(59, 58, 58);
+}
 
-        <h3>Looking Forward!</h3>
+/* ======================
+   SECONDARY CONTENT
+====================== */
 
-        <p>
-            Now, as I reflect on my life, I realize that it has taken a positive trajectory. I have grown as an individual, embracing the values of empathy, 
-            understanding, and perseverance. I have found meaningful work that allows me to contribute to the betterment of society. My dreams have begun to 
-            take shape, and my struggles have shaped me into a stronger person. <br><br>
+.secodary-content {
+    width: 40%;
+}
 
-            While challenges still arise, I face them with unwavering determination and resilience. I understand that life is a journey, and setbacks are merely 
-            stepping stones to growth and self-discovery. Looking ahead, I am filled with optimism, grateful for the progress I have made, and excited about the 
-            future that lies before me. <br><br>
+.fab h2,
+.cv h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
 
-            Inn Shaa Allah, I will continue to navigate life's challenges, driven by the desire to create positive change and overcome adversity. 
-            This experience at the polio immunization campaign serves as a constant reminder that no matter the obstacles I face, I will never give up.
-     
-        </p>
+.friend a {
+    display: block;
+    font-size: 0.95rem;
+    color: blue;
+    margin-bottom: 0.3rem;
+}
 
-          <p class="hashtag">
-            <span class="tooltip">#Discrimination
-                <span class="tooltiptext">Unfair treatment based on difference.</span>
-            </span>
-        
-            <span class="tooltip">#Resilience
-                <span class="tooltiptext">The ability to recover from difficulties.</span>
-            </span>
-        
-            <span class="tooltip">#Prejudice
-                <span class="tooltiptext">Preconceived opinion not based on reason.</span>
-            </span>
+.cv {
+    margin-top: 2rem;
+}
 
-            <span class="tooltip">#Ignorance
-                <span class="tooltiptext">Lack of knowledge or awareness.</span>
-            </span>
-        
-            <span class="tooltip">#Perseverance
-                <span class="tooltiptext">Persistence in doing something despite obstacles.</span>
-            </span>
-        
-            <span class="tooltip">#Inclusion
-                <span class="tooltiptext">Ensuring everyone has equal access and opportunities.</span>
-            </span>
-        
-            <span class="tooltip">#OvercomingAdversity
-                <span class="tooltiptext">Successfully dealing with challenges.</span>
-            </span>
-        
-            <span class="tooltip">#Empowerment
-                <span class="tooltiptext">Giving someone confidence and control over their life.</span>
-            </span>
-        
-            <span class="tooltip">#Faith
-                <span class="tooltiptext">Complete trust or belief in something.</span>
-            </span>
-        
-            <span class="tooltip">#PersonalGrowth
-                <span class="tooltiptext">Continuous development of oneself.</span>
-            </span>
-        </p>
+.cv p {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
 
-        <!-- <div class="email">
+.cv .head {
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+    border: 1px solid blue;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    color: blue;
+}
 
-            <h3>Leave a comment</h3>
+/* ======================
+   CONTACT SECTION
+====================== */
 
-           
+.btn {
+    display: inline-block;
+    border-radius: 2px;
+}
 
-            <form   action="">
+.contact-section {
+    height: auto;
+    padding: 3rem 2rem;
+    text-align: center;
+    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    color: white;
+}
 
-               <div>
-                    <p>Enter your email address</p>
-                    
-                    <input class="mail" type="email" placeholder = "e.g somebody@hotmail.com">
-               </div>
+.contact-section-header h2 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
 
-                <div>
-                    <p>Add a comment</p>
+.contact-section-header p {
+    font-size: 1.1rem;
+    font-style: italic;
+}
 
-                    <textarea class="comment"></textarea>
-                </div>
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
 
-                <div>
-                    <button type="submits">Submit</button>
-                </div>
-            
-               
-            </form>
-        
-        </div>      -->
-    </div>
+.contact-details {
+    font-size: 1rem;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
 
-    <section id="Contact" class="contact-section">
-            <div class="contact-section-header">
-              <h2>Let's Connect...</h2>
-              <p>Whether it’s over ☕️ or 🧑‍💻, I’d love to hear from you!</p>
-            </div>
-            
-            <div class="contact-links">
-      
-              <a
-                href="https://m.facebook.com/lamin.suwareh.79"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fab fa-facebook-square"></i> Facebook
-                </a>
+.contact-details:hover {
+    transform: translateY(5px);
+    transition: 0.3s;
+}
 
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fab fa-instagram-square"></i> Instagram
-                </a>
-      
-              <a
-                id="profile-link"
-                href="https://medium.com/@laminsuwareh9"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fab fa-github"></i> Medium
-                </a>
+/* ======================
+   RESPONSIVE
+====================== */
 
-              <a
-                href="https://mobile.twitter.com/LaminMeita"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fab fa-twitter"></i> X
-                </a>
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
 
-              <a 
-                href="mailto:laminsuwareh9@gmail.com" 
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fas fa-at"></i> Send a mail
-                </a>
+    .primary-content,
+    .secodary-content {
+        width: 100%;
+    }
 
-                <a 
-                    href="https://www.linkedin.com/in/lamin-m-k-suwareh-1231b8256/"
-                    target="_blank"
-                    class="btn contact-details"
-                    ><i class="fas fa-mobile-alt"></i> LinkedIn
-                </a>
+    .profile h1 {
+        font-size: 1.8rem;
+    }
+}
 
-                <a 
-                href="https://api.whatsapp.com/send?phone=%2B2203589770&data=AWCut1XuOcu5uvYKYFJHfFKBM8D2BV3fDtbB8K6gab7I8dukyKvP8d66FPK4FSMNHQfgqunmy3w3WjpcnyioG7btWgvWHGld4ytLVHY981rAVA57rxnzxuzcnskkRjsY0_yKh5MjdQ8JGOaH1UA7D8X5PEZYA-VEDN__H7nZx2NEj6GvexR2z_9SU-gK4smYDDcIxkkJ9HAFgLCLMAZZpvTguU50SdH6NMGCzX8wa6R7y_rlV2BV7QQNrkk90PgbGxeohDOD3xCdB3tJ_ctzqM2dSvHFzNE4JgPNPpuAi03JMNA32OYAKsfLZ6l90EcbN9E&source=FB_Page&app=facebook&entry_point=page_cta"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fas fa-mobile-alt"></i> Whatsapp
-                </a>
-
-            </div>
-    </section>
-</body>
 
 </html>
+
 
 
