@@ -13,6 +13,7 @@ html {
 .site-wrapper{
     margin: 0;
     font-size: 1.2rem;
+    text-decoration: none
 }
 
 .site-header{
@@ -26,6 +27,13 @@ html {
 .navbar{
     display: flex;
     margin-left: auto; 
+}
+
+.navbar a{
+    padding: 1.5rem 1rem;
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .about {
@@ -321,4 +329,5 @@ width: 35%;
 }
 
  */
+
 
