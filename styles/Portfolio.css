@@ -1,6 +1,6 @@
-html {
+/* html {
     font-size: 12.5px;
-}
+} */
 
 *{
     margin: 0;
@@ -249,4 +249,5 @@ html {
   .contact-details:hover {
     transform: translateY(8px);
   }
+
 
