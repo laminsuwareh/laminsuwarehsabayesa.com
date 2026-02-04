@@ -12,7 +12,7 @@ html {
 /* site-wrapper */
 .site-wrapper{
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .site-header{
@@ -254,5 +254,6 @@ h3{
   .contact-details:hover {
     transform: translateY(8px);
   }
+
 
 
