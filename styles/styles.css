@@ -9,244 +9,350 @@
     font-size: normal;
 }
 
-/* RESET */
 * {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+            /* ABOUT */
+
+/* header section */
+.main-header {
+    background-color: rgba(238, 58, 58, 0.6);
+    background-image: url(../images/sunset.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 24, 24, 0.3);
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5rem;
+    color: white;
     text-decoration: none;
 }
 
-html {
-    font-size: 16px; /* base size */
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-}
-
-/* ======================
-   SITE HEADER
-====================== */
-
-.site-wrapper {
-    font-size: 1rem;
-}
-
-.site-header {
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-    display: flex;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-}
-
-.navbar {
-    display: flex;
-    margin-left: auto;
-}
-
-.navbar a {
-    padding: 1rem;
-    color: white;
-    font-size: 1rem;
-}
-
-.about {
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-}
-
-.navbar a:hover {
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-}
-
-/* ======================
-   HERO SECTION
-====================== */
-
-.hero {
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-    margin-top: 60px;
-}
-
-.profile {
+.band-name {
     text-align: center;
-    max-width: 700px;
-    padding: 1rem;
-}
-
-.profile h1 {
-    font-size: 2.2rem;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
     color: white;
-    margin-bottom: 1rem;
 }
 
-.profile p {
-    font-size: 1.1rem;
-    color: white;
-    margin-bottom: 2rem;
+.band-name-large {
+    font-size: 8em;
 }
 
-.profile .btn {
-    font-size: 1rem;
-    color: white;
-    padding: 0.8rem 1.2rem;
-    border: 2px solid white;
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+
+/* content section */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em; 
 }
 
-.profile .btn:hover {
-    background: rgb(59, 58, 58);
-}
-
-/* ======================
-   MAIN CONTENT
-====================== */
-
-.content {
-    display: flex;
-    padding: 3rem 2rem;
-    background-color: #fafafa;
-    gap: 2rem;
-}
-
-/* PRIMARY CONTENT */
-.primary-content {
-    width: 60%;
-}
-
-.primary-content h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.primary-content p {
-    font-size: 1rem;
-    line-height: 1.8;
-    max-width: 65ch;
+.section-header {
+    font-family: "Metal Menia";
+    font-weight: normal;
     color: #333;
-    margin-bottom: 1.5rem;
-}
-
-.primary-content .btn {
-    font-size: 1rem;
-    padding: 0.7rem 1.2rem;
-    color: white;
-    border: 2px solid #000;
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-}
-
-.primary-content .btn:hover {
-    background: rgb(59, 58, 58);
-}
-
-/* ======================
-   SECONDARY CONTENT
-====================== */
-
-.secodary-content {
-    width: 40%;
-}
-
-.fab h2,
-.cv h2 {
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-}
-
-.friend a {
-    display: block;
-    font-size: 0.95rem;
-    color: blue;
-    margin-bottom: 0.3rem;
-}
-
-.cv {
-    margin-top: 2rem;
-}
-
-.cv p {
-    font-size: 0.95rem;
-    margin-bottom: 0.5rem;
-}
-
-.cv .head {
-    display: inline-block;
-    font-size: 0.9rem;
-    padding: 0.6rem 1rem;
-    border: 1px solid blue;
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
-    color: blue;
-}
-
-/* ======================
-   CONTACT SECTION
-====================== */
-
-.btn {
-    display: inline-block;
-    border-radius: 2px;
-}
-
-.contact-section {
-    height: auto;
-    padding: 3rem 2rem;
     text-align: center;
-    background-image: linear-gradient(62deg, #01080c 0%, #dfd0eb 100%);
+    font-size: 2.5em;
+    text-decoration: overline underline #333;
+}
+
+.myself {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+
+ /* footer section */
+.main-footer {
+    background-color: #56CCF2;
     color: white;
+    padding: .255em 0;
 }
 
-.contact-section-header h2 {
-    font-size: 2.2rem;
-    margin-bottom: 0.5rem;
+.main-footer-container {
+    display: flex;
 }
 
-.contact-section-header p {
-    font-size: 1.1rem;
-    font-style: italic;
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
 }
 
-.contact-links {
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-nav a:hover {
+    transform: translateY(8px);
+  }
+  
+
+            /* HOME */
+
+/* header section */
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 32%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+/* content section */
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+            /* STORE */
+            
+/* content section 1 & 2 */
+
+.shop-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 2rem;
+    justify-content: space-around;
 }
 
-.contact-details {
-    font-size: 1rem;
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(75, 64, 64);
+    margin-top: 15px;
+}
+
+.shop-item-image {
+    height: 200px;
+    width: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+
+/* content section 3 */
+
+.cart-row {
+    display: flex;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+}
+
+.cart-quality {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-quality-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    padding: 0;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.btn-danger {
     color: white;
-    text-shadow: 1px 1px 1px #000;
+    background-color: #eb5757;
+    border: 2px solid black;
+    border-radius: .3em;
+    font-weight: bold;
 }
 
-.contact-details:hover {
-    transform: translateY(5px);
-    transition: 0.3s;
+.btn-danger:hover{
+    background-color: #460303;
 }
 
-/* ======================
-   RESPONSIVE
-====================== */
 
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-    }
+.cart-row:last-child {
+    border-bottom: 2px solid black;
+}
 
-    .primary-content,
-    .secodary-content {
-        width: 100%;
-    }
+.cart-row:last-child .cart-column {
+    border: none;
+}
 
-    .profile h1 {
-        font-size: 1.8rem;
-    }
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.7em;
+
 }
