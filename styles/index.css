@@ -1,6 +1,6 @@
-html {
+/* html {
     font-size: 12.5px;
-}
+} */
 
 *{
     margin: 0;
@@ -12,7 +12,7 @@ html {
 /* site-wrapper */
 .site-wrapper{
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .site-header{
@@ -254,6 +254,7 @@ h3{
   .contact-details:hover {
     transform: translateY(8px);
   }
+
 
 
 
