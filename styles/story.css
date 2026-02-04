@@ -1,4 +1,6 @@
-
+html {
+    font-size: 12.5px;
+}
 *{
     margin: 0;
     padding:0;
@@ -404,4 +406,5 @@ width: 35%;
 
     
     
+
 
