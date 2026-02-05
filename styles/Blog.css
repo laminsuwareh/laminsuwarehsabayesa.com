@@ -333,6 +333,7 @@ html {
   
 
 .contact-section {
+    border-bottom: 4px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,7 +364,7 @@ html {
     justify-content: center;
     width: 100%;
     max-width: 980px;
-    margin-top: 4rem;
+    margin-top: 3rem;
     flex-wrap: wrap;
     
   }
@@ -380,6 +381,7 @@ html {
   .contact-details:hover {
     transform: translateY(8px);
   }
+
 
 
 
