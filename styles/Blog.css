@@ -1,6 +1,6 @@
-/* html {
+html {
     font-size: 12.5px;
-} */
+}
 
 *{
     margin: 0;
@@ -52,7 +52,7 @@
 
 /* hero */
 .hero{
-    height: 80vh;
+    height: 95vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -238,7 +238,7 @@
   }
   
   .projects-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     grid-gap: 2rem;
     /* height: 1050px; */
@@ -285,7 +285,7 @@
   }
   
   .project-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 2rem 1.5rem;
     color: white;
     text-decoration: none;
@@ -380,6 +380,7 @@
   .contact-details:hover {
     transform: translateY(8px);
   }
+
 
 
 
