@@ -110,7 +110,7 @@ html {
 
 /* primary-content */
 .content{
-    padding: 5rem;
+    padding: 6rem;
     display: flex;  
     background-color: rgb(252, 251, 250);
 }
@@ -254,6 +254,7 @@ h3{
   .contact-details:hover {
     transform: translateY(8px);
   }
+
 
 
 
