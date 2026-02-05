@@ -51,7 +51,7 @@ html {
 }
 
 /* hero */
-.hero{
+.heros{
     height: 95vh;
     align-items: center;
     justify-content: center;
@@ -380,6 +380,7 @@ html {
   .contact-details:hover {
     transform: translateY(8px);
   }
+
 
 
 
