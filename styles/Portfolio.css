@@ -14,7 +14,7 @@ html {
 /* site-wrapper */
 .site-wrapper{
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-decoration: none;
 }
 
@@ -249,6 +249,7 @@ html {
   .contact-details:hover {
     transform: translateY(8px);
   }
+
 
 
 
