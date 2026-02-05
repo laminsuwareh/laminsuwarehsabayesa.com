@@ -45,7 +45,7 @@ html {
 
 /* hero */
 .hero{
-    height: 90vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -85,7 +85,7 @@ html {
 
 .profile p{
     line-height: 1.6;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: white;
 }
 
@@ -254,6 +254,7 @@ h3{
   .contact-details:hover {
     transform: translateY(8px);
   }
+
 
 
 
